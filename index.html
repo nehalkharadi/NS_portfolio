@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nandinee Soni | Manual QA Tester & Software Quality Assurance Portfolio</title>
+  <meta name="description"
+    content="Professional Manual QA Tester portfolio for Nandinee Soni specializing in functional testing, UI/usability testing, cross-browser verification, and structured bug reporting to help businesses deliver bug-free software.">
+  <meta name="keywords"
+    content="Nandinee Soni, Manual QA Tester, Software Quality Assurance, Software Testing, Functional Testing, Regression Testing, Bug Reports, Jira, Test Cases">
+  <meta name="author" content="Nandinee Soni">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nandinee Soni | Delivering Better Software Through Quality Testing">
+  <meta property="og:description"
+    content="I help businesses identify bugs, improve user experience, and ensure their websites and applications work as expected through detailed manual testing.">
+
+  <!-- Google Fonts: Outfit, Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css?v=3.9">
+</head>
+
+<body>
+
+  <!-- Ambient Background Scene & Dotted Grid Layer (Ref: nehalkharadi.github.io) -->
+  <div class="bg-scene">
+    <div class="grid-overlay"></div>
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+    <div class="ambient-glow glow-3"></div>
+    <div class="floating-shape shape-1"></div>
+    <div class="floating-shape shape-2"></div>
+  </div>
+
+  <!-- Top Sticky Navigation (Sober & Simple - Ref: nehalkharadi.github.io) -->
+  <header class="site-header" id="header">
+    <div class="header-container">
+      <a href="#home" class="logo">
+        <span id="display-nav-name">Nandinee</span> <span class="text-primary">Soni</span>
+      </a>
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="#about" class="hover-underline nav-link">About</a></li>
+        <li><a href="#experience" class="hover-underline nav-link">Experience</a></li>
+        <li><a href="#skills" class="hover-underline nav-link">Skills</a></li>
+        <li><a href="#portfolio" class="hover-underline nav-link">Projects</a></li>
+        <li><a href="#contact" class="hover-underline nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- Mobile hamburger -->
+        <button class="hamburger" id="mobile-toggle" aria-label="Toggle navigation menu">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <div class="nav-backdrop" id="nav-backdrop" aria-hidden="true"></div>
+
+  <main>
+    <!-- ==================== 1. HOME HERO SECTION ==================== -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+
+        <div class="hero-content">
+          <!-- Availability Badge (Exact 1st Reference Image Style) -->
+          <div class="hero-pill-badge">
+            <span class="hero-pill-dot"></span>
+            <span class="hero-pill-text" id="display-availability">Available for Opportunities</span>
+          </div>
+
+          <!-- Main Title: Hi, I'm Nandinee Soni -->
+          <h1 class="hero-title">
+            <span class="hero-greeting">Hi, I'm</span>
+            <span class="hero-name-gradient" id="display-hero-name-hero">Nandinee Soni</span>
+          </h1>
+
+          <!-- Dynamic Typing Line: I am a [Role] -->
+          <div class="hero-typing-line">
+            <span class="typing-lead">I am a</span>
+            <span class="typing-role" id="typing-text">QA Specialist</span>
+            <span class="typing-cursor">|</span>
+          </div>
+
+          <!-- Value Statement -->
+          <p class="hero-description" id="display-hero-desc">
+            I help businesses identify bugs, improve user experience, and ensure their websites and applications work as
+            expected through detailed manual testing.
+          </p>
+
+          <!-- CTA Buttons -->
+          <div class="hero-cta">
+            <a href="#portfolio" class="btn-hero-primary">View Projects</a>
+            <a href="assets/nsoni-1 1.pdf" class="btn-hero-outline" id="btn-download-resume"
+              download="nsoni-1 1.pdf">Download Resume</a>
+            <a href="#contact" class="btn-hero-link">
+              <span>Contact Me</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Visual Showcase: Clean 3D Woman QA Specialist Card -->
+        <div class="hero-visual">
+          <!-- Main 3D Woman Character Card -->
+          <div class="hero-character-card">
+            <!-- 3D Female QA Specialist Image -->
+            <div class="hero-char-img-wrap">
+              <img src="assets/hero_qa_woman.jpg" alt="Nandinee Soni - Manual QA Specialist 3D Illustration"
+                class="hero-char-img" loading="eager">
+            </div>
+
+            <!-- Bottom Role Overlay with QA Tool Badges -->
+            <div class="hero-char-overlay">
+              <h3 class="hero-char-title">Manual QA Tester</h3>
+              <div class="hero-tech-icons">
+                <span class="tech-icon-pill icon-jira" title="Jira Defect Tracking">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <rect width="24" height="24" rx="4" fill="#0052CC" />
+                    <path d="M12 4L6.5 9.5L12 15L17.5 9.5L12 4Z" fill="white" />
+                    <path d="M12 15L6.5 20.5H17.5L12 15Z" fill="#2684FF" />
+                  </svg>
+                  <span>Jira</span>
+                </span>
+                <span class="tech-icon-pill icon-postman" title="Postman API Validation">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <rect width="24" height="24" rx="4" fill="#FF6C37" />
+                    <circle cx="12" cy="12" r="6" stroke="white" stroke-width="2" />
+                    <path d="M12 8V12L15 14" stroke="white" stroke-width="2" stroke-linecap="round" />
+                  </svg>
+                  <span>Postman</span>
+                </span>
+                <span class="tech-icon-pill icon-sheets" title="Google Sheets Test Execution">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <rect width="24" height="24" rx="4" fill="#0F9D58" />
+                    <rect x="6" y="6" width="12" height="12" rx="1.5" stroke="white" stroke-width="1.8" />
+                    <line x1="6" y1="11" x2="18" y2="11" stroke="white" stroke-width="1.5" />
+                    <line x1="11" y1="6" x2="11" y2="18" stroke="white" stroke-width="1.5" />
+                  </svg>
+                  <span>Sheets</span>
+                </span>
+                <span class="tech-icon-pill icon-bug" title="Bug Reporting & Edge Cases">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <rect width="24" height="24" rx="4" fill="#DC2626" />
+                    <circle cx="12" cy="12" r="5" stroke="white" stroke-width="1.8" />
+                    <line x1="7" y1="12" x2="5" y2="12" stroke="white" stroke-width="2" stroke-linecap="round" />
+                    <line x1="19" y1="12" x2="17" y2="12" stroke="white" stroke-width="2" stroke-linecap="round" />
+                    <line x1="8" y1="8" x2="6" y2="6" stroke="white" stroke-width="2" stroke-linecap="round" />
+                    <line x1="16" y1="8" x2="18" y2="6" stroke="white" stroke-width="2" stroke-linecap="round" />
+                  </svg>
+                  <span>Defect QA</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 Core Pillars Section -->
+      <div class="container hero-pillars-section">
+        <div class="pillars-grid">
+
+          <div class="pillar-card pillar-rose reveal-on-scroll">
+            <div class="pillar-icon-box icon-rose">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="m8 2 1.88 1.88" />
+                <path d="M14.12 3.88 16 2" />
+                <path d="M9 7.13v-1a3.003 3.003 0 1 1 6 0v1" />
+                <path d="M12 20c-3.3 0-6-2.7-6-6v-3a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v3c0 3.3-2.7 6-6 6" />
+                <path d="M12 20v-9" />
+                <path d="M6.53 9C4.6 8.8 3 7.1 3 5" />
+                <path d="M6 13H2" />
+                <path d="M3 21c0-2.1 1.7-3.9 3.8-4" />
+                <path d="M20.97 5c0 2.1-1.6 3.8-3.5 4" />
+                <path d="M22 13h-4" />
+                <path d="M17.2 17c2.1.1 3.8 1.9 3.8 4" />
+              </svg>
+            </div>
+            <h3 class="pillar-title">Bug Detection</h3>
+            <p class="pillar-desc">Identify functional, visual, and logic defects before users ever experience them in
+              production.</p>
+            <div class="pillar-tag">Zero Defect Mindset</div>
+          </div>
+
+          <div class="pillar-card pillar-emerald reveal-on-scroll">
+            <div class="pillar-icon-box icon-emerald">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                <path d="m9 12 2 2 4-4" />
+              </svg>
+            </div>
+            <h3 class="pillar-title">Quality Assurance</h3>
+            <p class="pillar-desc">Rigorously validate business logic, user flows, and features against specifications
+              and requirements.</p>
+            <div class="pillar-tag">Requirements Traceability</div>
+          </div>
+
+          <div class="pillar-card pillar-cyan reveal-on-scroll">
+            <div class="pillar-icon-box icon-cyan">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                <line x1="8" y1="21" x2="16" y2="21" />
+                <line x1="12" y1="17" x2="12" y2="21" />
+              </svg>
+            </div>
+            <h3 class="pillar-title">Cross-Device Testing</h3>
+            <p class="pillar-desc">Check responsive layouts, touch gestures, and cross-browser consistency across
+              mobile, tablet, and desktop.</p>
+            <div class="pillar-tag">Viewport & Browser Parity</div>
+          </div>
+
+          <div class="pillar-card pillar-amber reveal-on-scroll">
+            <div class="pillar-icon-box icon-amber">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                <polyline points="14 2 14 8 20 8" />
+                <line x1="16" y1="13" x2="8" y2="13" />
+                <line x1="16" y1="17" x2="8" y2="17" />
+                <polyline points="10 9 9 9 8 9" />
+              </svg>
+            </div>
+            <h3 class="pillar-title">Detailed Reporting</h3>
+            <p class="pillar-desc">Document bugs with clear reproduction steps, screenshots, severity, and exact
+              expected vs actual results.</p>
+            <div class="pillar-tag">Actionable Bug Tickets</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 2. ABOUT ME SECTION ==================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-sub"><span class="sub-dot"></span> About Me</span>
+          <h2 class="section-title">The Mindset Behind <span class="gradient-text">Quality Software</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-story-card">
+            <div class="quote-accent">“</div>
+            <div class="about-text-content">
+              <p class="about-paragraph highlight">
+                I am a detail-oriented Manual QA Tester passionate about improving software quality and delivering
+                reliable digital experiences.
+              </p>
+              <p class="about-paragraph">
+                I test websites and applications to identify functional issues, UI inconsistencies, usability problems,
+                and unexpected behavior. My approach focuses on understanding requirements, exploring real-world user
+                scenarios, and documenting clear, actionable bug reports that help developers resolve issues
+                efficiently.
+              </p>
+            </div>
+
+            <!-- Signature & Quick Meta -->
+            <div class="about-meta-footer">
+              <div class="meta-item">
+                <span class="meta-label">Experience:</span>
+                <span class="meta-val" id="display-exp-years">1–2 Years Practical Testing</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Specialization:</span>
+                <span class="meta-val">Web, Mobile & SaaS Applications</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Goal:</span>
+                <span class="meta-val">Bug-Free, High-Converting Products</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- QA Philosophy & Core Competencies -->
+          <div class="about-highlights-col">
+
+            <div class="highlight-item">
+              <div class="hl-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="m9 12 2 2 4-4"></path>
+                </svg>
+              </div>
+              <div class="hl-content">
+                <h3 class="hl-title">Real-World Scenario Exploration</h3>
+                <p class="hl-desc">Testing beyond standard "happy paths" by mimicking authentic end-user missteps, slow
+                  networks, concurrent edits, and edge cases.</p>
+              </div>
+            </div>
+
+            <div class="highlight-item">
+              <div class="hl-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="12" y1="18" x2="12" y2="12"></line>
+                  <line x1="9" y1="15" x2="15" y2="15"></line>
+                </svg>
+              </div>
+              <div class="hl-content">
+                <h3 class="hl-title">Developer-First Documentation</h3>
+                <p class="hl-desc">Every bug report includes exact steps to reproduce, expected vs actual behavior,
+                  environment specs, and annotated media for zero friction.</p>
+              </div>
+            </div>
+
+            <div class="highlight-item">
+              <div class="hl-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                  </path>
+                  <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                  <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                </svg>
+              </div>
+              <div class="hl-content">
+                <h3 class="hl-title">Rigorous Regression & Verification</h3>
+                <p class="hl-desc">Confirmed fixes undergo disciplined retesting and sibling-feature regression checks
+                  to prevent unintended side effects.</p>
+              </div>
+            </div>
+
+            <div class="highlight-item">
+              <div class="hl-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <div class="hl-content">
+                <h3 class="hl-title">Transparent Stakeholder Communication</h3>
+                <p class="hl-desc">Daily test execution updates, clear blocker alerts, and unambiguous sign-off
+                  summaries so product teams launch with confidence.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 3. TESTING SERVICES & EXPERIENCE SECTION ==================== -->
+    <section class="section services-section" id="experience">
+      <span id="services" style="display:block; position:relative; top:-90px; visibility:hidden;"></span>
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-sub"><span class="sub-dot"></span> My Testing Services</span>
+          <h2 class="section-title">Comprehensive <span class="gradient-text">QA Capabilities</span></h2>
+        </div>
+
+        <div class="services-grid">
+
+          <!-- Service 1 -->
+          <div class="service-card service-blue reveal-on-scroll">
+            <div class="service-header">
+              <div class="service-icon icon-blue">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                </svg>
+              </div>
+              <span class="service-index">01</span>
+            </div>
+            <h3 class="service-name">Functional Testing</h3>
+
+            <ul class="service-features-list">
+              <li>Form field validations & character bounds</li>
+              <li>Authentication & multi-role workflows</li>
+              <li>Business logic & calculation checks</li>
+              <li>CRUD operations & data persistence</li>
+            </ul>
+            <div class="service-footer">
+              <a href="#contact" class="service-inquire-link">Book Functional Test →</a>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card service-purple reveal-on-scroll">
+            <div class="service-header">
+              <div class="service-icon icon-purple">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M12 16v-4" />
+                  <path d="M12 8h.01" />
+                </svg>
+              </div>
+              <span class="service-index">02</span>
+            </div>
+            <h3 class="service-name">UI and Usability Testing</h3>
+            <ul class="service-features-list">
+              <li>Visual hierarchy & typographic alignment</li>
+              <li>Interaction affordance & user journey friction</li>
+              <li>Error state & success message readability</li>
+              <li>Accessibility & keyboard navigation audits</li>
+            </ul>
+            <div class="service-footer">
+              <a href="#contact" class="service-inquire-link">Audit UI / Usability →</a>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card service-cyan reveal-on-scroll">
+            <div class="service-header">
+              <div class="service-icon icon-cyan">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                  <line x1="8" y1="21" x2="16" y2="21" />
+                  <line x1="12" y1="17" x2="12" y2="21" />
+                </svg>
+              </div>
+              <span class="service-index">03</span>
+            </div>
+            <h3 class="service-name">Responsive & Cross-Browser Testing</h3>
+
+            <ul class="service-features-list">
+              <li>Chrome, Firefox, Safari, Edge parity</li>
+              <li>Breakpoints: Mobile (375px), Tablet, Desktop</li>
+              <li>Touch target sizes & mobile hamburger menus</li>
+              <li>Media query overflows & horizontal scroll detection</li>
+            </ul>
+            <div class="service-footer">
+              <a href="#contact" class="service-inquire-link">Check Cross-Device →</a>
+            </div>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card service-amber reveal-on-scroll">
+            <div class="service-header">
+              <div class="service-icon icon-amber">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                  <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                </svg>
+              </div>
+              <span class="service-index">04</span>
+            </div>
+            <h3 class="service-name">Test Case Writing & Bug Reporting</h3>
+            <ul class="service-features-list">
+              <li>Test scenarios & preconditions documentation</li>
+              <li>Structured Jira / ClickUp defect tickets</li>
+              <li>Severity (Critical, Major, Minor) classifications</li>
+              <li>Annotated screenshots & video reproduction files</li>
+            </ul>
+            <div class="service-footer">
+              <a href="#contact" class="service-inquire-link">Request Test Documentation →</a>
+            </div>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="service-card service-emerald reveal-on-scroll">
+            <div class="service-header">
+              <div class="service-icon icon-emerald">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="23 4 23 10 17 10" />
+                  <polyline points="1 20 1 14 7 14" />
+                  <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15" />
+                </svg>
+              </div>
+              <span class="service-index">05</span>
+            </div>
+            <h3 class="service-name">Regression and Retesting</h3>
+            <ul class="service-features-list">
+              <li>Verification of developer bug fixes in staging</li>
+              <li>Sibling module impact assessment</li>
+              <li>Sanity & smoke testing before deployment</li>
+              <li>Release readiness sign-off report</li>
+            </ul>
+            <div class="service-footer">
+              <a href="#contact" class="service-inquire-link">Schedule Regression Run →</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4. TESTING PROCESS SECTION ==================== -->
+    <section class="section process-section" id="process">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-sub"><span class="sub-dot"></span> My Testing Process</span>
+          <h2 class="section-title">A Structured <span class="gradient-text">3-Step Methodology</span></h2>
+        </div>
+
+        <div class="process-timeline">
+
+          <!-- Step 1 -->
+          <div class="process-step reveal-on-scroll">
+            <div class="step-num-badge">01</div>
+            <div class="step-content">
+              <h3 class="step-heading">Understand & Plan</h3>
+              <p class="step-body">Review specifications, map user journeys, identify edge cases, and design detailed
+                test scenarios.</p>
+              <div class="step-deliverable">Output: Scope Baseline & Test Scenarios</div>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="process-step reveal-on-scroll">
+            <div class="step-num-badge">02</div>
+            <div class="step-content">
+              <h3 class="step-heading">Execute Tests</h3>
+              <p class="step-body">Test features across environments, validate actual vs expected results, and explore
+                unexpected defects.</p>
+              <div class="step-deliverable">Output: Test Execution Logs & Defect Identification</div>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="process-step reveal-on-scroll">
+            <div class="step-num-badge">03</div>
+            <div class="step-content">
+              <h3 class="step-heading">Report & Verify</h3>
+              <p class="step-body">Log reproducible defect tickets with evidence, retest developer fixes, and perform
+                regression testing.</p>
+              <div class="step-deliverable">Output: Structured Bug Reports & Final Sign-Off</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 5. TOOLS AND SKILLS SECTION ==================== -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-sub"><span class="sub-dot"></span> Tools & Skills</span>
+          <h2 class="section-title">Tested, Proven & <span class="gradient-text">Practical Competencies</span></h2>
+        </div>
+
+        <div class="skills-grid">
+
+          <!-- Category 1: Testing Methodologies -->
+          <div class="skill-category-card skill-indigo reveal-on-scroll">
+            <div class="cat-header">
+              <div class="cat-icon-badge icon-indigo">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="cat-title">Testing Types & Approaches</h3>
+                <span class="cat-subtitle">Methodologies Applied</span>
+              </div>
+            </div>
+            <div class="skills-tags-wrap">
+              <span class="skill-tag">Functional Testing</span>
+              <span class="skill-tag">Regression Testing</span>
+              <span class="skill-tag">Retesting</span>
+              <span class="skill-tag">Exploratory Testing</span>
+              <span class="skill-tag">UI Testing</span>
+              <span class="skill-tag">Smoke Testing</span>
+              <span class="skill-tag">Sanity Testing</span>
+              <span class="skill-tag">Usability Testing</span>
+              <span class="skill-tag">Boundary Value Analysis</span>
+              <span class="skill-tag">Equivalence Partitioning</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Documentation -->
+          <div class="skill-category-card skill-emerald reveal-on-scroll">
+            <div class="cat-header">
+              <div class="cat-icon-badge icon-emerald">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="cat-title">QA Documentation</h3>
+                <span class="cat-subtitle">Deliverables Authored</span>
+              </div>
+            </div>
+            <div class="skills-tags-wrap">
+              <span class="skill-tag">Test Cases</span>
+              <span class="skill-tag">Test Scenarios</span>
+              <span class="skill-tag">Checklists</span>
+              <span class="skill-tag">Test Execution Reports</span>
+              <span class="skill-tag">Bug Reports</span>
+              <span class="skill-tag">RTM (Traceability)</span>
+              <span class="skill-tag">Severity Matrices</span>
+              <span class="skill-tag">Release Notes</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Bug Tracking -->
+          <div class="skill-category-card skill-amber reveal-on-scroll">
+            <div class="cat-header">
+              <div class="cat-icon-badge icon-amber">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 20h9" />
+                  <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="cat-title">Bug Tracking & Agile</h3>
+                <span class="cat-subtitle">Workflows Managed</span>
+              </div>
+            </div>
+            <div class="skills-tags-wrap">
+              <span class="skill-tag skill-tag-primary">Jira (Scrum & Kanban)</span>
+              <span class="skill-tag skill-tag-primary">ClickUp</span>
+              <span class="skill-tag">Trello</span>
+              <span class="skill-tag">GitHub Issues</span>
+              <span class="skill-tag">Defect Life Cycle</span>
+              <span class="skill-tag">Sprint Standups</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Supporting Tools -->
+          <div class="skill-category-card skill-cyan reveal-on-scroll">
+            <div class="cat-header">
+              <div class="cat-icon-badge icon-cyan">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="cat-title">Supporting Tools & Inspection</h3>
+                <span class="cat-subtitle">Diagnostic Utilities</span>
+              </div>
+            </div>
+            <div class="skills-tags-wrap">
+              <span class="skill-tag skill-tag-primary">Chrome DevTools</span>
+              <span class="skill-tag">Console & Network Inspection</span>
+              <span class="skill-tag">Spreadsheets (Excel / Sheets)</span>
+              <span class="skill-tag">Screenshot Annotation (Lightshot)</span>
+              <span class="skill-tag">Loom / Screen Recorders</span>
+              <span class="skill-tag">Postman (Basic API verification)</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 6. MY WORK / PORTFOLIO & PROJECTS SECTION ==================== -->
+    <section class="section portfolio-section" id="portfolio">
+      <span id="projects" style="display:block; position:relative; top:-90px; visibility:hidden;"></span>
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-sub"><span class="sub-dot"></span> My Work / Portfolio</span>
+          <h2 class="section-title">Tested Projects & <span class="gradient-text">Real QA Deliverables</span></h2>
+        </div>
+
+        <div class="projects-list">
+
+          <!-- Project 1: Delawala Group — Real Estate ERP System -->
+          <article class="project-card reveal-on-scroll">
+            <div class="project-media" data-lightbox="delawala" style="cursor: pointer;"
+              title="Click to inspect Delawala Group Real Estate ERP Blueprint & Unit Matrix">
+              <img src="assets/delawala_realestate_erp.jpg?v=dark4"
+                alt="Delawala Group Real Estate ERP Blueprint & Unit Matrix" class="project-img" loading="lazy"
+                style="object-position: top center;">
+              <div class="artifact-overlay-badge" style="bottom: 16px; top: auto; right: 16px;">🔍 View Unit Blueprint
+              </div>
+            </div>
+            <div class="project-details">
+              <div class="project-type-tag">Real Estate ERP • Enterprise Web Platform</div>
+              <h3 class="project-title">Delawala Group — Real Estate ERP System</h3>
+              <p class="project-overview">
+                Comprehensive manual functional QA for commercial and residential property management, building unit
+                matrices, tenant leasing contracts, payment installment schedules, and lead CRM workflows.
+              </p>
+
+              <div class="project-scope-box">
+                <h4 class="scope-title">Testing Scope & Highlights:</h4>
+                <ul class="scope-list">
+                  <li><strong>Core ERP Workflows:</strong> Property unit inventory, tenant onboarding, lease agreement
+                    generation, and milestone-based installment tracking.</li>
+                  <li><strong>Form Validation & Finance:</strong> TDS and tax deductions on commercial leases, buyer KYC
+                    verification, and boundary checks on unit pricing calculations.</li>
+                  <li><strong>Defect Retesting:</strong> Verified 32 critical & high defects including concurrent
+                    booking race conditions and payment reconciliation sync errors.</li>
+                </ul>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm open-bug-modal-btn" data-bug-id="delawala-bug-101">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                  </svg>
+                  <span>Inspect Delawala ERP Bug Report</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Aspino — Enterprise ERP System -->
+          <article class="project-card reverse reveal-on-scroll">
+            <div class="project-media" data-lightbox="aspino" style="cursor: pointer;"
+              title="Click to inspect Aspino Enterprise ERP Inspection Modal">
+              <img src="assets/aspino_enterprise_erp.jpg?v=dark4"
+                alt="Aspino Enterprise ERP Batch Inspection Modal Dialog" class="project-img" loading="lazy"
+                style="object-position: top center;">
+              <div class="artifact-overlay-badge" style="bottom: 16px; top: auto; right: 16px;">🔍 View Batch Modal
+              </div>
+            </div>
+            <div class="project-details">
+              <div class="project-type-tag">Manufacturing & SCM ERP • Enterprise Portal</div>
+              <h3 class="project-title">Aspino — Enterprise ERP System</h3>
+              <p class="project-overview">
+                End-to-end quality assurance for enterprise manufacturing operations, raw material procurement, purchase
+                orders, multi-warehouse inventory levels, batch barcodes, and supply chain logistics tracking.
+              </p>
+
+              <div class="project-scope-box">
+                <h4 class="scope-title">Testing Scope & Highlights:</h4>
+                <ul class="scope-list">
+                  <li><strong>Procurement & Production:</strong> Purchase order workflows, Goods Receipt Note (GRN)
+                    verification, batch quality grading, and sales dispatch fulfillment.</li>
+                  <li><strong>Financial & Stock Logic:</strong> Multi-currency vendor invoicing, scrap variance
+                    calculations, GST invoice computation, and low-stock threshold triggers.</li>
+                  <li><strong>Defect Retesting:</strong> Retested 26 resolved defects preventing inventory ledger
+                    mismatches between manufacturing plants and regional hubs.</li>
+                </ul>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm open-bug-modal-btn" data-bug-id="aspino-bug-201">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                  </svg>
+                  <span>Inspect Aspino ERP Bug Report</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Cost Free Car — Automotive Fleet ERP System -->
+          <article class="project-card reveal-on-scroll">
+            <div class="project-media" data-lightbox="car" style="cursor: pointer;"
+              title="Click to inspect Cost Free Car Fleet Hub & Checklist">
+              <img src="assets/cost_free_car_erp.jpg?v=dark4"
+                alt="Cost Free Car Automotive Fleet Grid & Inspection Engine" class="project-img" loading="lazy"
+                style="object-position: top center;">
+              <div class="artifact-overlay-badge" style="bottom: 16px; top: auto; right: 16px;">🔍 View Fleet Hub</div>
+            </div>
+            <div class="project-details">
+              <div class="project-type-tag">Automotive ERP • Fleet & Dealership Platform</div>
+              <h3 class="project-title">Cost Free Car — Automotive Fleet ERP System</h3>
+              <p class="project-overview">
+                Thorough manual testing of vehicle inventory catalogs, customer rental booking calendars, security
+                deposit escrow calculations, fleet maintenance schedules, and return inspection checklists.
+              </p>
+
+              <div class="project-scope-box">
+                <h4 class="scope-title">Testing Scope & Highlights:</h4>
+                <ul class="scope-list">
+                  <li><strong>Fleet & Booking Engine:</strong> Vehicle availability lookup, customer rental agreements,
+                    odometer mileage logs, and dynamic daily rate calculations.</li>
+                  <li><strong>Form Validation & Rules:</strong> Driver's license OCR verification, fuel level
+                    discrepancy penalty algorithms, and refundable deposit logic.</li>
+                  <li><strong>Defect Retesting:</strong> Identified and verified 29 defects including maintenance
+                    blackout calendar sync errors and payment refund edge cases.</li>
+                </ul>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm open-bug-modal-btn" data-bug-id="car-bug-301">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                  </svg>
+                  <span>Inspect Cost Free Car Bug Report</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Interactive Test Documentation Showcase -->
+          <div class="interactive-showcase-panel reveal-on-scroll">
+            <div class="panel-header">
+              <div>
+                <span class="badge-tag">Interactive QA Vault</span>
+                <h3 class="panel-title">Test Documentation & Bug Reports Showcase</h3>
+              </div>
+            </div>
+
+            <!-- View Mode Switcher: Table View vs Spreadsheet Artifact View -->
+            <div class="artifact-view-toggles">
+              <button class="view-toggle-btn active" id="btn-view-table">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="8" y1="6" x2="21" y2="6"></line>
+                  <line x1="8" y1="12" x2="21" y2="12"></line>
+                  <line x1="8" y1="18" x2="21" y2="18"></line>
+                  <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                  <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                  <line x1="3" y1="18" x2="3.01" y2="18"></line>
+                </svg>
+                <span>Live Test Case Matrix</span>
+              </button>
+              <button class="view-toggle-btn" id="btn-view-spreadsheet">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="3" y1="9" x2="21" y2="9"></line>
+                  <line x1="3" y1="15" x2="21" y2="15"></line>
+                  <line x1="9" y1="3" x2="9" y2="21"></line>
+                  <line x1="15" y1="3" x2="15" y2="21"></line>
+                </svg>
+                <span>Real Test Sheet Artifacts</span>
+              </button>
+            </div>
+
+            <!-- View 1: Interactive Test Case Table -->
+            <div class="table-scroll-hint">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+              </svg>
+              <span>Swipe / scroll horizontally to inspect full test execution records</span>
+            </div>
+            <div class="table-responsive" id="view-table-container">
+              <table class="qa-table">
+                <thead>
+                  <tr>
+                    <th>TC ID</th>
+                    <th>Module / Feature</th>
+                    <th>Test Scenario</th>
+                    <th>Severity</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody id="testcase-table-body">
+                  <tr data-type="bug">
+                    <td><span class="mono-id">TC-DEL-042</span></td>
+                    <td>Delawala ERP / Unit Allotment</td>
+                    <td>Concurrency check: simultaneous token payments for the same residential unit</td>
+                    <td><span class="badge-severity sev-critical">CRITICAL</span></td>
+                    <td><span class="badge-status st-fail">Defect Logged</span></td>
+                    <td><button class="btn-text-action open-bug-modal-btn" data-bug-id="delawala-bug-101">View Bug
+                        Report</button></td>
+                  </tr>
+                  <tr data-type="pass">
+                    <td><span class="mono-id">TC-ASP-015</span></td>
+                    <td>Aspino ERP / Procurement &amp; SCM</td>
+                    <td>Boundary validation on bulk ceramic glaze orders and interstate IGST tax calculation</td>
+                    <td><span class="badge-severity sev-medium">MEDIUM</span></td>
+                    <td><span class="badge-status st-pass">✓ PASSED</span></td>
+                    <td><button class="btn-text-action open-tc-detail-btn" data-tc-id="TC-ASP-015">View Details</button>
+                    </td>
+                  </tr>
+                  <tr data-type="bug">
+                    <td><span class="mono-id">TC-CAR-108</span></td>
+                    <td>Cost Free Car ERP / Fleet Availability</td>
+                    <td>Front-desk rental booking calendar sync when vehicle status is flagged "In Service"</td>
+                    <td><span class="badge-severity sev-high">HIGH</span></td>
+                    <td><span class="badge-status st-fail">Defect Logged</span></td>
+                    <td><button class="btn-text-action open-bug-modal-btn" data-bug-id="car-bug-301">View Bug
+                        Report</button></td>
+                  </tr>
+                  <tr data-type="pass">
+                    <td><span class="mono-id">TC-DEL-088</span></td>
+                    <td>Delawala ERP / Lease Management</td>
+                    <td>Automated 30-day lease expiration notification and +5% rent escalation tier calculation</td>
+                    <td><span class="badge-severity sev-high">HIGH</span></td>
+                    <td><span class="badge-status st-pass">✓ PASSED</span></td>
+                    <td><button class="btn-text-action open-tc-detail-btn" data-tc-id="TC-DEL-088">View Details</button>
+                    </td>
+                  </tr>
+                  <tr data-type="bug">
+                    <td><span class="mono-id">TC-ASP-088</span></td>
+                    <td>Aspino ERP / Batch Logistics &amp; Dispatch</td>
+                    <td>Multi-warehouse transfer calculation deducting quality inspection scrap percentage</td>
+                    <td><span class="badge-severity sev-high">HIGH</span></td>
+                    <td><span class="badge-status st-fail">Defect Logged</span></td>
+                    <td><button class="btn-text-action open-bug-modal-btn" data-bug-id="aspino-bug-201">View Bug
+                        Report</button></td>
+                  </tr>
+                  <tr data-type="pass">
+                    <td><span class="mono-id">TC-CAR-064</span></td>
+                    <td>Cost Free Car ERP / Vehicle Return &amp; Audit</td>
+                    <td>Return checklist photo proof upload, odometer delta tracking, and fuel deficit penalty</td>
+                    <td><span class="badge-severity sev-low">LOW</span></td>
+                    <td><span class="badge-status st-pass">✓ PASSED</span></td>
+                    <td><button class="btn-text-action open-tc-detail-btn" data-tc-id="TC-CAR-064">View Details</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- View 2: Real Spreadsheet Artifacts Visualizer -->
+            <div class="artifacts-visualizer-grid" id="view-spreadsheet-container" style="display: none;">
+              <div class="artifact-card" data-lightbox="sheets" style="cursor: pointer;"
+                title="Click to view high-resolution execution matrix">
+                <div class="artifact-img-wrap">
+                  <img src="assets/Software Testing - Expected Outcome.jpeg"
+                    alt="Google Sheets Test Case Execution Document" class="artifact-img" loading="lazy"
+                    style="object-position: top left;">
+                  <div class="artifact-overlay-badge">🔍 Click to Preview</div>
+                </div>
+                <div class="artifact-meta">
+                  <h4>Google Sheets Test Execution Matrix</h4>
+                  <p>Standardized test case template featuring Preconditions, Environment specs, Test Steps, Test Data,
+                    and Expected vs. Actual outcomes.</p>
+                </div>
+              </div>
+
+              <div class="artifact-card" data-lightbox="ieee" style="cursor: pointer;"
+                title="Click to view IEEE 829 traceability document">
+                <div class="artifact-img-wrap">
+                  <img src="assets/test_case_template.jpg" alt="Standard IEEE 829 Test Case Template"
+                    class="artifact-img" loading="lazy">
+                  <div class="artifact-overlay-badge">🔍 Click to Preview</div>
+                </div>
+                <div class="artifact-meta">
+                  <h4>Enterprise QA Traceability Template</h4>
+                  <p>Requirements traceability matrix (RTM) linking business requirements to automated/manual test IDs
+                    and defect tickets.</p>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 7. WHY WORK WITH ME? SECTION ==================== -->
+    <section class="section why-section" id="why-me">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-sub"><span class="sub-dot"></span> Why Work With Me?</span>
+          <h2 class="section-title">The Value I Bring to Your <span class="gradient-text">Development Team</span></h2>
+        </div>
+
+        <div class="why-grid">
+
+          <div class="why-card reveal-on-scroll">
+            <div class="why-check">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <div class="why-content">
+              <h3 class="why-title">Attention to Detail & Structured Testing</h3>
+              <p class="why-desc">Methodical coverage of both common journeys and elusive edge cases, ensuring no
+                critical behavior slips through the cracks.</p>
+            </div>
+          </div>
+
+          <div class="why-card reveal-on-scroll">
+            <div class="why-check">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <div class="why-content">
+              <h3 class="why-title">Clear, Reproducible Bug Reports</h3>
+              <p class="why-desc">No vague reports. Developers receive crystal-clear steps, test data, expected vs
+                actual behavior, and visual evidence to fix bugs in minutes.</p>
+            </div>
+          </div>
+
+          <div class="why-card reveal-on-scroll">
+            <div class="why-check">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <div class="why-content">
+              <h3 class="why-title">Focus on User Experience & Functional Accuracy</h3>
+              <p class="why-desc">Testing through the eyes of real users to catch awkward workflows, confusing
+                microcopy, and jarring interface hiccups.</p>
+            </div>
+          </div>
+
+          <div class="why-card reveal-on-scroll">
+            <div class="why-check">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <div class="why-content">
+              <h3 class="why-title">Thorough Retesting & Regression Checks</h3>
+              <p class="why-desc">Disciplined verification that fixed bugs stay fixed and that updates haven’t broken
+                previously functioning features.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 8. CONTACT SECTION ==================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+
+        <div class="contact-card-glass reveal-on-scroll">
+          <div class="contact-info-col">
+            <span class="badge-tag"><span class="sub-dot"></span> Let's Connect</span>
+            <h2 class="contact-main-heading">Let's Improve Your <span class="gradient-text">Software Quality</span></h2>
+            <p class="contact-intro">
+              Looking for someone to test your website or application before launch, after an update, or during ongoing
+              development?
+            </p>
+
+
+            <div class="contact-details-list">
+
+              <div class="contact-item">
+                <div class="contact-icon-box">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="contact-item-content">
+                  <span class="c-label">Email Address</span>
+                  <div class="c-value-group">
+                    <a href="mailto:nandinee.soni.qa@gmail.com" class="c-value"
+                      id="display-contact-email">nandinee.soni.qa@gmail.com</a>
+                    <button class="copy-btn" id="copy-email-btn" title="Copy email address"
+                      aria-label="Copy email address">Copy</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon-box">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </div>
+                <div class="contact-item-content">
+                  <span class="c-label">LinkedIn Profile</span>
+                  <div class="c-value-group">
+                    <a href="https://linkedin.com/in/nandinee-soni" target="_blank" rel="noopener noreferrer"
+                      class="c-value" id="display-contact-linkedin">linkedin.com/in/nandinee-soni</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon-box">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div class="contact-item-content">
+                  <span class="c-label">Response Time</span>
+                  <span class="c-value">Within 24 Hours • Ready for Quick Start</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-col">
+            <form class="contact-form" id="qa-contact-form">
+              <h3 class="form-title">Send a Testing Inquiry</h3>
+
+              <div class="form-group">
+                <label for="contact-name">Your Name </label>
+                <input type="text" id="contact-name" name="name" required
+                  placeholder="e.g. Sarah Jenkins or TechCorp Inc.">
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email">Your Email Address</label>
+                <input type="email" id="contact-email" name="email" required placeholder="sarah@example.com">
+              </div>
+
+              <div class="form-group">
+                <label for="contact-service">Testing Service Needed</label>
+                <select id="contact-service" name="service">
+                  <option value="functional">Functional Testing & Workflow Validation</option>
+                  <option value="ui_usability">UI & Usability Review</option>
+                  <option value="responsive">Cross-Browser & Responsive Device Audit</option>
+                  <option value="test_documentation">Test Case Writing & Defect Documentation</option>
+                  <option value="regression">Pre-Launch Regression & Sanity Sweep</option>
+                  <option value="full_audit">Full End-to-End Application QA Audit</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Project Overview & Application Link</label>
+                <textarea id="contact-message" name="message" rows="4" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block btn-lg" id="submit-form-btn">
+                <span>Send Testing Inquiry</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+
+              <div class="form-status-alert" id="form-alert" style="display: none;"></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER (Sober, Elegant & Organized) ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <!-- Main Footer Grid -->
+      <div class="footer-grid">
+
+        <!-- Brand & Bio Column -->
+        <div class="footer-brand-col">
+          <a href="#home" class="logo footer-logo">
+            <span id="display-footer-logo-name">Nandinee</span> <span class="text-primary">Soni</span>
+          </a>
+          <p class="footer-tagline">Manual QA Tester • Quality Assurance</p>
+          <p class="footer-desc">
+            Helping businesses identify bugs, improve user experience, and ensure applications work as expected through
+            disciplined manual testing.
+          </p>
+          <div class="footer-social-links">
+            <a href="mailto:nandinee.soni.qa@gmail.com" class="footer-social-pill" title="Send Email">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </svg>
+              <span>Email</span>
+            </a>
+            <a href="https://linkedin.com/in/nandinee-soni" target="_blank" rel="noopener noreferrer"
+              class="footer-social-pill" title="LinkedIn Profile">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Navigation Column -->
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#experience">Testing Capabilities</a></li>
+            <li><a href="#skills">Tools & Skills</a></li>
+            <li><a href="#portfolio">Sample Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+
+        <!-- QA Focus & Competencies Column -->
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">QA Specialties</h4>
+          <ul class="footer-links-list">
+            <li><a href="#experience">Functional Testing</a></li>
+            <li><a href="#experience">UI & Usability Audits</a></li>
+            <li><a href="#experience">Cross-Browser Testing</a></li>
+            <li><a href="#skills">Test Scenarios & Cases</a></li>
+            <li><a href="#portfolio">Defect Documentation</a></li>
+          </ul>
+        </div>
+
+        <!-- Availability & Quick Action Column -->
+        <div class="footer-action-col">
+          <h4 class="footer-col-title">Availability</h4>
+          <div class="footer-status-card">
+            <div class="status-indicator-dot"></div>
+            <div class="status-card-text">
+              <span class="status-title">Open for Opportunities</span>
+              <span class="status-sub">Freelance & Full-Time QA</span>
+            </div>
+          </div>
+          <a href="#home" class="back-to-top-btn" title="Back to Top">
+            <span>Back to Top</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <polyline points="18 15 12 9 6 15"></polyline>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar Divider -->
+      <div class="footer-bottom-bar">
+        <div class="copyright-text">
+          <b>© 2026 created by Nandinee Soni. All rights reserved.</b>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== MODAL: SAMPLE BUG REPORT VIEWER ==================== -->
+  <div class="modal-overlay" id="bug-report-modal" aria-hidden="true" role="dialog">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <div class="modal-badge-row">
+            <span class="badge-pill pill-critical" id="modal-bug-severity">CRITICAL</span>
+            <span class="mono-id" id="modal-bug-id">BUG-HR-101</span>
+            <span class="badge-status st-fail" id="modal-bug-status">Status: OPEN</span>
+          </div>
+          <h3 class="modal-bug-title" id="modal-bug-title">HRMS: Annual leave balance calculates negative value when
+            submitting overlapping dates</h3>
+        </div>
+        <button class="modal-close-btn" id="close-bug-modal-btn" aria-label="Close defect viewer">×</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-meta-grid">
+          <div class="meta-cell"><strong>Project:</strong> <span id="modal-bug-project">HRMS Application</span></div>
+          <div class="meta-cell"><strong>Environment:</strong> <span id="modal-bug-env">Chrome v122 / Windows 11 /
+              Staging v2.4</span></div>
+          <div class="meta-cell"><strong>Reported By:</strong> <span>Manual QA Specialist</span></div>
+          <div class="meta-cell"><strong>Component:</strong> <span id="modal-bug-module">Leave Tracker Module</span>
+          </div>
+        </div>
+
+        <div class="modal-section-title">Description & Impact</div>
+        <p class="modal-text-desc" id="modal-bug-desc">
+          When an employee submits a leave request with dates overlapping an existing approved holiday weekend, the
+          leave counter fails to validate business day deductions and produces a negative balance (e.g., -3 days),
+          bypassing maximum allowed quota.
+        </p>
+
+        <div class="modal-section-title">Steps to Reproduce (100% Reproducible)</div>
+        <ol class="repro-steps-list" id="modal-bug-steps">
+          <li>Log in to the HRMS portal as standard employee (<code>emp_user_04</code>).</li>
+          <li>Navigate to <strong>Leave Tracker → Request Leave</strong>.</li>
+          <li>Select Leave Type: <em>Annual Paid Leave</em>.</li>
+          <li>Set Start Date: <code>2026-11-20 (Friday)</code> and End Date: <code>2026-11-23 (Monday)</code>.</li>
+          <li>Click the "Submit Request" button.</li>
+          <li>Observe the "Remaining Leave Days" summary widget on the dashboard.</li>
+        </ol>
+
+        <div class="results-comparison-grid">
+          <div class="res-box res-expected">
+            <div class="res-label">✓ Expected Result</div>
+            <p id="modal-bug-expected">System deducts only 2 business days (Friday + Monday), excluding Saturday &
+              Sunday, displaying 8 remaining days from initial 10-day balance.</p>
+          </div>
+          <div class="res-box res-actual">
+            <div class="res-label">✗ Actual Result</div>
+            <p id="modal-bug-actual">System deducts 4 consecutive calendar days and subtracts an extra buffer penalty,
+              causing remaining balance to display -3 days without throwing validation error.</p>
+          </div>
+        </div>
+
+        <div class="modal-section-title">Inspection Evidence & Logs</div>
+        <div class="qa-terminal-box">
+          <div class="terminal-content">
+            <div class="term-line"><span class="term-status bug">[API PAYLOAD]</span> POST /api/v2/leave/submit-request
+              HTTP/1.1</div>
+            <div class="term-line">{ "empId": 1042, "from": "2026-11-20", "to": "2026-11-23", "deductWeekend": false }
+            </div>
+            <div class="term-line"><span class="term-status bug">[CONSOLE ERROR]</span> Uncaught RangeError: Invalid
+              negative balance computed in LeaveCalculatorService.ts:142</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="modal-footer">
+        <span class="modal-footer-caption">Quality Assurance Standard Documentation • Ready for Developer
+          Assignment</span>
+        <button class="btn btn-secondary btn-sm" id="close-modal-bottom-btn">Close Report</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== MODAL: TEST CASE DETAIL VIEWER ==================== -->
+  <div class="modal-overlay" id="testcase-modal" aria-hidden="true" role="dialog">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <div class="modal-badge-row">
+            <span class="badge-pill pill-passed" id="modal-tc-status">✓ PASSED</span>
+            <span class="mono-id" id="modal-tc-id">TC-HR-015</span>
+            <span class="badge-tag" id="modal-tc-type">Functional & Boundary</span>
+          </div>
+          <h3 class="modal-bug-title" id="modal-tc-title">Employee Profile Photo Upload Constraints</h3>
+        </div>
+        <button class="modal-close-btn" id="close-testcase-modal-btn" aria-label="Close testcase viewer">×</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-meta-grid">
+          <div class="meta-cell"><strong>Module:</strong> <span id="modal-tc-module">HRMS / Profile Management</span>
+          </div>
+          <div class="meta-cell"><strong>Environment:</strong> <span>Chrome v122 / Windows 11 / Staging</span></div>
+          <div class="meta-cell"><strong>Execution Type:</strong> <span>Manual Test Execution</span></div>
+          <div class="meta-cell"><strong>Tester:</strong> <span>Nandinee Soni (QA Specialist)</span></div>
+        </div>
+
+        <div class="modal-section-title">Preconditions</div>
+        <p class="modal-text-desc" id="modal-tc-preconditions">User authenticated with Employee or HR Admin role.</p>
+
+        <div class="modal-section-title">Test Steps & Execution Log</div>
+        <ol class="repro-steps-list" id="modal-tc-steps">
+          <li>Navigate to My Profile → Edit Picture.</li>
+        </ol>
+
+        <div class="results-comparison-grid">
+          <div class="res-box res-expected" style="grid-column: span 2;">
+            <div class="res-label">✓ Execution Verdict & Outcome</div>
+            <p id="modal-tc-result">PASSED (Zero defect escaped. Boundary validation strictly enforced).</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <span class="modal-footer-caption">Quality Assurance Traceability Standard • Verified Manual Test Case</span>
+        <button class="btn btn-secondary btn-sm" id="close-tc-modal-bottom-btn">Close Details</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== MODAL: ARTIFACT LIGHTBOX PREVIEW ==================== -->
+  <div class="modal-overlay" id="artifact-lightbox-modal" aria-hidden="true" role="dialog">
+    <div class="modal-card lightbox-card">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <span class="badge-tag" id="lightbox-badge">QA Deliverable Artifact</span>
+          <h3 class="modal-bug-title" id="lightbox-title">Google Sheets Test Execution Matrix</h3>
+        </div>
+        <button class="modal-close-btn" id="close-lightbox-btn" aria-label="Close image preview">×</button>
+      </div>
+      <div class="modal-body lightbox-body">
+        <div class="lightbox-img-container">
+          <img src="" alt="QA Deliverable Preview" id="lightbox-img" class="lightbox-img">
+        </div>
+        <p class="lightbox-caption" id="lightbox-caption"></p>
+      </div>
+      <div class="modal-footer">
+        <span class="modal-footer-caption">Industry-Standard Documentation Sample</span>
+        <button class="btn btn-secondary btn-sm" id="close-lightbox-bottom-btn">Close Preview</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== MODAL: PROFILE PERSONALIZER ==================== -->
+  <div class="modal-overlay" id="personalizer-modal" aria-hidden="true" role="dialog">
+    <div class="modal-card personalizer-card">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <span class="badge-tag">Interactive Customizer</span>
+          <h3 class="modal-bug-title">Personalize Your Portfolio Content</h3>
+          <p class="personalizer-lead">Enter your actual information below. The entire site will instantly update in
+            real-time and save your preferences.</p>
+        </div>
+        <button class="modal-close-btn" id="close-personalizer-btn" aria-label="Close personalizer">×</button>
+      </div>
+
+      <div class="modal-body">
+        <form id="personalizer-form">
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="p-name">Your Full Name</label>
+              <input type="text" id="p-name" value="Nandinee Soni" placeholder="e.g. Nandinee Soni">
+            </div>
+            <div class="form-group">
+              <label for="p-role">Professional Title</label>
+              <input type="text" id="p-role" value="Manual QA Tester & QA Specialist"
+                placeholder="Manual QA Tester | Software QA">
+            </div>
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="p-exp">QA Experience Level</label>
+              <select id="p-exp">
+                <option value="Fresher / Learning Manual Testing">Fresher / Learning Manual Testing</option>
+                <option value="Less than 1 Year">Less than 1 Year</option>
+                <option value="1–2 Years Practical Testing" selected>1–2 Years Practical Testing</option>
+                <option value="3+ Years Manual QA Experience">3+ Years Manual QA Experience</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="p-audience">Target Audience</label>
+              <select id="p-audience">
+                <option value="Both Freelance Clients & Employers" selected>Both Freelance Clients & Employers</option>
+                <option value="Freelance Clients Only">Freelance Clients Only</option>
+                <option value="Employers & Recruiters Only">Employers & Recruiters Only</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="p-email">Your Email Address</label>
+              <input type="email" id="p-email" value="nandinee.soni.qa@gmail.com"
+                placeholder="nandinee.soni.qa@gmail.com">
+            </div>
+            <div class="form-group">
+              <label for="p-linkedin">LinkedIn Profile URL or Handle</label>
+              <input type="text" id="p-linkedin" value="linkedin.com/in/nandinee-soni"
+                placeholder="linkedin.com/in/nandinee-soni">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="p-hero-desc">Hero Value Statement</label>
+            <textarea id="p-hero-desc"
+              rows="3">I help businesses identify bugs, improve user experience, and ensure their websites and applications work as expected through detailed manual testing.</textarea>
+          </div>
+
+          <div class="personalizer-actions">
+            <button type="submit" class="btn btn-primary btn-block btn-lg">
+              <span>Save & Apply To Website</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </button>
+            <button type="button" class="btn btn-outline" id="reset-defaults-btn">Reset Defaults</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Interactive Toast Notification -->
+  <div class="toast-notification" id="toast-notify" role="alert">
+    <div class="toast-icon">✓</div>
+    <div class="toast-message" id="toast-msg">Action completed successfully</div>
+  </div>
+
+  <script src="app.js?v=3.9"></script>
+</body>
+
+</html>
